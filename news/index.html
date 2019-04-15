@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="zh-CN">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+
 <meta charset="UTF-8">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -14,6 +16,7 @@ ul.breadcrumb {
     padding-top:5px;
     list-style: none;
     color: #404040;
+    display: inline-block;
 }
 
 ul.breadcrumb li {
@@ -62,6 +65,7 @@ img{
     position: fixed;
     bottom: 0px;
     width: 100%;
+    display: inline-block;
 }
 
 
@@ -73,6 +77,33 @@ img{
     right:15%;
     bottom: 0px;
     height: 1.5%;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 15%;
+  margin-right: 15%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+footer {
+  text-align:center;
+  color: #4d4d4d;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;            /* Footer height */
 }
 
 .selector{ font-family:"Microsoft YaHei", ????,"STKaiti","STSong"
@@ -101,8 +132,9 @@ body{font-size: 14px;
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<div class="navbar0">
-</div>
+ <div id="page-container">
+   <div id="content-wrap">
+
 
 <section id="my_menu">
   <nav>
@@ -114,9 +146,9 @@ body{font-size: 14px;
          <li><a href="/news/">News</a></li>
          <li><a href="/research/">Research</a></li>
          <li><a href="/publications/">Publications</a></li>
-         <hr>
      </ul>
   </nav>
+    <hr>
 </section>
 
 <section>
@@ -135,14 +167,10 @@ body{font-size: 14px;
 </section>
 
 
-<div class="navbar1">
-<footer>
-  <p style="text-align:center; color: #4d4d4d;"><i>&copy;  Changhong Wang  2018~19</i></p>
-</footer>
-</div>
-
-<div class="navbar2">
-</div>
+   </div>
+   <footer id="footer"><i>&copy;  Changhong Wang  2018~19</i></footer>
+ </div>
 
 </body>
+
 </html>
