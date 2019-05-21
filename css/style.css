@@ -45,6 +45,11 @@ ul.breadcrumb li a {
     text-decoration: none;
 }
 
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: none;
+}
+
 #navWrap{
 right:15%;
 }
@@ -58,10 +63,8 @@ img{
 
 hr {
   display: block;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 1.5%;
-  margin-bottom: 1%;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
   border-style: inset;
   border-width: 1px;
 }
