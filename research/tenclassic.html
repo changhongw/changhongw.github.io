@@ -14,20 +14,22 @@ ul.breadcrumb {
     padding-left:15%;
     padding-right:15%;
     padding-top:5px;
+    height: 10px;
     list-style: none;
     color: #404040;
     display: inline-block;
 }
 
 ul.breadcrumb li {
+    right: 0;
     display: inline;
     color: #01447e;
     font-size: 100%;
 }
 
 ul.breadcrumb li+li:before {
+    right: 0;
     display: inline;
-    padding: 1px;
     color: #01447e;
     content: "/\00a0";
 }
@@ -38,10 +40,10 @@ ul.breadcrumb li a {
     text-decoration: none;
 }
 
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: none;
+#navWrap{
+right:15%;
 }
+
 
 img{
   position:absolute;
@@ -81,10 +83,7 @@ img{
 
 hr {
   display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-bottom: 2em;
   border-style: inset;
   border-width: 1px;
 }
@@ -120,6 +119,16 @@ body{font-size: 14px;
   -webkit-text-size-adjust: 100%;
 }
 
+.button {
+  border: 1px solid black;
+  border-color: #cccccc;
+  background: none;
+  border-radius: 5px;
+  color: #0275d8;
+  font-size: 12px;
+  cursor: pointer;
+}
+
 
 </style>
 
@@ -128,29 +137,22 @@ body{font-size: 14px;
 </head>
 
 <body>
-
- <div id="page-container">
-   <div id="content-wrap">
-
-
-<section id="my_menu">
   <nav>
 <ul class="breadcrumb">
 <h style="font-size:150%; color:#404040;"><i>Changhong Wang</i></h>
 </ul>
-     <ul class="breadcrumb">
+     <ul class="breadcrumb" style="float: right;">
          <li><a href="/">Home</a></li>
          <li><a href="/news/">News</a></li>
-         <li><a href="/research/">Research</a></li>
          <li><a href="/publications/">Publications</a></li>
      </ul>
   </nav>
-    <hr>
-</section>
+
 
 <section>
   <nav>
      <ul class="breadcrumb">
+         <hr>
      <p><meta charset="UTF-8"></p>
 <p></p><p align="left">The ten classic traditional Chinese bamboo flute pieces</p><p></p>
 <li align="left"><a href="https://www.youtube.com/watch?v=g8H6nRB2bEw" target="_blank" rel="noopener">&nbsp; 1. <i>Dawn</i></a> 早晨</li><br> <li align="left"><a href="https://www.youtube.com/watch?v=2yJUGQ0pZ_w" target="_blank" rel="noopener">&nbsp; 2. Busy Delivering Harvest</a> 扬鞭催马运粮忙</li><br><li align="left"><a href="https://www.youtube.com/watch?v=4kt7vJNRTCk&t=17s" target="_blank" rel="noopener">&nbsp; 3. Flying Partridge</a> 鹧鸪飞</li><br><li align="left"><a href="https://www.youtube.com/watch?v=ca6amJDSE_w&t=15s" target="_blank" rel="noopener">&nbsp; 4. You Lan Feng Chun</a> 幽兰逢春</li><br><li align="left"><a href="https://www.youtube.com/watch?v=ca6amJDSE_w&t=15s" target="_blank" rel="noopener">&nbsp; 5. Xiao Fang Niu</a> 小放牛</li><br><li align="left"><a href="https://www.youtube.com/watch?v=ca6amJDSE_w&t=15s" target="_blank" rel="noopener">&nbsp; 6. Gu Su Xing</a> 姑苏行</li><br><li align="left"><a href="https://www.youtube.com/watch?v=ca6amJDSE_w&t=15s" target="_blank" rel="noopener">&nbsp; 7. Chun Dao Xiang Jiang</a> 春到湘江</li><br><li align="left"><a href="https://www.youtube.com/watch?v=ca6amJDSE_w&t=15s" target="_blank" rel="noopener">&nbsp; 8. Mu Di</a> 牧笛</li><br><li align="left"><a href="https://www.youtube.com/watch?v=ca6amJDSE_w&t=15s" target="_blank" rel="noopener">&nbsp; 9. Huang Ying Liang Chi</a> 黄莺亮翅</li><br><li align="left"><a href="https://www.youtube.com/watch?v=ca6amJDSE_w&t=15s" target="_blank" rel="noopener">&nbsp; 10. Wu Bang Zi</a> 五梆子</li>

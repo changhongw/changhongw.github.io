@@ -14,20 +14,22 @@ ul.breadcrumb {
     padding-left:15%;
     padding-right:15%;
     padding-top:5px;
+    height: 10px;
     list-style: none;
     color: #404040;
     display: inline-block;
 }
 
 ul.breadcrumb li {
+    right: 0;
     display: inline;
     color: #01447e;
     font-size: 100%;
 }
 
 ul.breadcrumb li+li:before {
+    right: 0;
     display: inline;
-    padding: 1px;
     color: #01447e;
     content: "/\00a0";
 }
@@ -38,10 +40,10 @@ ul.breadcrumb li a {
     text-decoration: none;
 }
 
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: none;
+#navWrap{
+right:15%;
 }
+
 
 img{
   position:absolute;
@@ -81,10 +83,7 @@ img{
 
 hr {
   display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-bottom: 2em;
   border-style: inset;
   border-width: 1px;
 }
@@ -120,6 +119,16 @@ body{font-size: 14px;
   -webkit-text-size-adjust: 100%;
 }
 
+.button {
+  border: 1px solid black;
+  border-color: #cccccc;
+  background: none;
+  border-radius: 5px;
+  color: #0275d8;
+  font-size: 12px;
+  cursor: pointer;
+}
+
 
 </style>
 
@@ -128,35 +137,23 @@ body{font-size: 14px;
 </head>
 
 <body>
-
- <div id="page-container">
-   <div id="content-wrap">
-
-
-<section id="my_menu">
   <nav>
 <ul class="breadcrumb">
 <h style="font-size:150%; color:#404040;"><i>Changhong Wang</i></h>
 </ul>
-     <ul class="breadcrumb">
+     <ul class="breadcrumb" style="float: right;">
          <li><a href="/">Home</a></li>
          <li><a href="/news/">News</a></li>
-         <li><a href="/research/">Research</a></li>
          <li><a href="/publications/">Publications</a></li>
      </ul>
   </nav>
-    <hr>
-</section>
+
 
 <section>
   <nav>
      <ul class="breadcrumb">
-     <p align="left">28-31/05/2019 &nbsp; Oral presentation (HMM-based glissando detection for recordings of Chinese bamboo flute) at <a href="http://smc2019.uma.es/index.html" target="_blank" rel="noopener">SMC2019</a> Malaga, Spain.</p>
-
-<p>24-26/12/2018 &nbsp; Oral presentation (Computational Analysis of Chinese Bamboo Flute Playing Techniques) at 2018 International Forum for Young Scholars, <a href="http://en.shu.edu.cn/" target="_blank" rel="noopener">Shanghai University</a>, China.</p>
-<p>18/12/2018 &nbsp; Poster presentation (Characterisation of Glissando and Flutter-tongue Techniques) at <a href="https://www.qmul.ac.uk/dmrn/dmrn13/" target="_blank" rel="noopener">DMRN+13</a>, Arts Two Lecture Theatre, QMUL, Mile End, London, UK.</p>
-<p>21/11/2018 &nbsp; Poster presentation (Glissando detection) at Industry Day event, Octagon, QMUL, Mile End, London, UK.</p>
-<p>27/09/2018 &nbsp; Poster presentation (Towards HMM-based glissando detection for recordings of Chinese bamboo flute) at <a href="http://ismir2018.ircam.fr/" target="_blank" rel="noopener">ISMIR2018</a> Paris, France.</p><p></p>
+         <hr>
+     <p align="left">28-31/05/2019 &nbsp; Oral presentation (HMM-based glissando detection for recordings of Chinese bamboo flute) at <a href="http://smc2019.uma.es/index.html" target="_blank" rel="noopener">SMC2019</a> Malaga, Spain.<br><br>24-26/12/2018 &nbsp; Oral presentation (Computational Analysis of Chinese Bamboo Flute Playing Techniques) at 2018 International Forum for Young Scholars, <a href="http://en.shu.edu.cn/" target="_blank" rel="noopener">Shanghai University</a>, China.<br><br>18/12/2018 &nbsp; Poster presentation (Characterisation of Glissando and Flutter-tongue Techniques) at <a href="https://www.qmul.ac.uk/dmrn/dmrn13/" target="_blank" rel="noopener">DMRN+13</a>, Arts Two Lecture Theatre, QMUL, Mile End, London, UK.<br><br>21/11/2018 &nbsp; Poster presentation (Glissando detection) at Industry Day event, Octagon, QMUL, Mile End, London, UK.<br><br>23-27/09/2018 &nbsp; Poster presentation (Towards HMM-based glissando detection for recordings of Chinese bamboo flute) at <a href="http://ismir2018.ircam.fr/" target="_blank" rel="noopener">ISMIR2018</a> Paris, France.</p>
 
 
      </ul>

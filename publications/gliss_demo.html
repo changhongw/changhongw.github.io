@@ -14,20 +14,22 @@ ul.breadcrumb {
     padding-left:15%;
     padding-right:15%;
     padding-top:5px;
+    height: 10px;
     list-style: none;
     color: #404040;
     display: inline-block;
 }
 
 ul.breadcrumb li {
+    right: 0;
     display: inline;
     color: #01447e;
     font-size: 100%;
 }
 
 ul.breadcrumb li+li:before {
+    right: 0;
     display: inline;
-    padding: 1px;
     color: #01447e;
     content: "/\00a0";
 }
@@ -38,10 +40,10 @@ ul.breadcrumb li a {
     text-decoration: none;
 }
 
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: none;
+#navWrap{
+right:15%;
 }
+
 
 img{
   position:absolute;
@@ -81,10 +83,7 @@ img{
 
 hr {
   display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-bottom: 2em;
   border-style: inset;
   border-width: 1px;
 }
@@ -120,6 +119,16 @@ body{font-size: 14px;
   -webkit-text-size-adjust: 100%;
 }
 
+.button {
+  border: 1px solid black;
+  border-color: #cccccc;
+  background: none;
+  border-radius: 5px;
+  color: #0275d8;
+  font-size: 12px;
+  cursor: pointer;
+}
+
 
 </style>
 
@@ -128,29 +137,22 @@ body{font-size: 14px;
 </head>
 
 <body>
-
- <div id="page-container">
-   <div id="content-wrap">
-
-
-<section id="my_menu">
   <nav>
 <ul class="breadcrumb">
 <h style="font-size:150%; color:#404040;"><i>Changhong Wang</i></h>
 </ul>
-     <ul class="breadcrumb">
+     <ul class="breadcrumb" style="float: right;">
          <li><a href="/">Home</a></li>
          <li><a href="/news/">News</a></li>
-         <li><a href="/research/">Research</a></li>
          <li><a href="/publications/">Publications</a></li>
      </ul>
   </nav>
-    <hr>
-</section>
+
 
 <section>
   <nav>
      <ul class="breadcrumb">
+         <hr>
      <p style="display:block; text-align:center">Periodic Modulations</p>
 
 <p><audio controls height="100" width="100"><br>  <source src="/audio/vibrato.wav" type="audio/mpeg"><br>  <embed height="50" width="100" src="/audio/vibrato.wav"><br></audio></p>
