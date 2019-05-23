@@ -13,32 +13,16 @@
 ul.breadcrumb {
     padding: 0;
     list-style: none;
-    color: #404040;
     display: inline-block;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 ul.breadcrumb li {
-    right: 0;
     display: inline;
-    color: #01447e;
 }
 
 ul.breadcrumb li+li:before {
-    right: 0;
     display: inline;
-    color: #01447e;
     content: "/\00a0";
-}
-
-ul.breadcrumb li a {
-    color: #0275d8;
-    text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-    color: #01447e;
-    text-decoration: none;
 }
 
 
@@ -84,21 +68,6 @@ footer {
 }
 
 audio {display: block; height: 30px; width: 200px; vertical-align: middle;}
-
-/* create multi-column in body */
-ul.bodyColum2 {
-    list-style: none;
-    color: #404040;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    align-element: center;
-}
-
-ul.bodyColum2 li{
-    list-style: disc;
-    list-style-type: disc;
-}
 
 
 
