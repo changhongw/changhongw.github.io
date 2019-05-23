@@ -68,7 +68,7 @@ hr {
 
 #page-container {
   position: relative;
-  min-height: 60vh;
+  min-height: 100vh;
 }
 
 #content-wrap {
