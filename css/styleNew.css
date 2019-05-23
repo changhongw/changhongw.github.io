@@ -1,0 +1,233 @@
+
+.body-container{
+    color: #404040;
+    text-align: left;
+    font-size: 14px;
+	line-height: 1.6em;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+
+ul.breadcrumb {
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    color: #404040;
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+ul.breadcrumb li {
+    right: 0;
+    display: inline;
+    color: #01447e;
+    font-size: 100%;
+}
+
+ul.breadcrumb li+li:before {
+    right: 0;
+    display: inline;
+    color: #01447e;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: #0275d8;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: none;
+}
+
+
+img{
+  display: block;}
+
+hr {
+  display: block;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.button {
+  border: 1px solid black;
+  border-color: #cccccc;
+  background: none;
+  border-radius: 5px;
+  color: #0275d8;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#page-container {
+  position: relative;
+  min-height: 60vh;
+}
+
+#content-wrap {
+  padding-bottom: 2rem;    /* Footer height */
+}
+
+
+footer {
+  text-align:center;
+  font-size: 14px;
+  color: #4d4d4d;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2rem;            /* Footer height */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+audio {display: block; height: 30px; width: 200px; vertical-align: middle;}
+
+/* create multi-column in body */
+ul.bodyColum2 {
+    list-style: none;
+    color: #404040;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    align-element: center;
+}
+
+ul.bodyColum2 li{
+    list-style: disc;
+    list-style-type: disc;
+}
+
+
+
+/* https://people.eecs.berkeley.edu/~cbfinn/ */
+    a {
+    color: #0275d8;/*#1772d0;*/
+    text-decoration: none;
+    padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    a:focus, a:hover {
+    color: #01447e; /*#f7b733;*/ /*f09228;*/
+    text-decoration:underline;
+    }
+    body,td,th,tr,p {
+    padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: #404040;
+    text-align: left;
+    }
+    strong {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    heading {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    color: #e37222; /*#fc4a1a;*/
+    }
+    heading2 {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    papertitle {
+    font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
+    font-size: 15px; /*14*/
+    font-weight: 700;
+    }
+    name {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    }
+    li:not(:last-child) {
+        margin-bottom: 5px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    }
+    .fade {
+     transition: opacity .2s ease-in-out;
+     -moz-transition: opacity .2s ease-in-out;
+     -webkit-transition: opacity .2s ease-in-out;
+    }
+    span.highlight {
+        background-color: #ffffd0;
+    }
+
+
+<script type="text/javascript">
+   function visibility_on(id) {
+        var e = document.getElementById(id+"_text");
+        if(e.style.display == 'none')
+            e.style.display = 'block';
+        var e = document.getElementById(id+"_img");
+        if(e.style.display == 'none')
+            e.style.display = 'block';
+   }
+   function visibility_off(id) {
+        var e = document.getElementById(id+"_text");
+        if(e.style.display == 'block')
+            e.style.display = 'none';
+        var e = document.getElementById(id+"_img");
+        if(e.style.display == 'block')
+            e.style.display = 'none';
+   }
+   function toggle_visibility(id) {
+       var e = document.getElementById(id+"_text");
+       if(e.style.display == 'inline')
+          e.style.display = 'block';
+       else
+          e.style.display = 'inline';
+       var e = document.getElementById(id+"_img");
+       if(e.style.display == 'inline')
+          e.style.display = 'block';
+       else
+          e.style.display = 'inline';
+   }
+   function toggle_vis(id) {
+       var e = document.getElementById(id);
+       if (e.style.display == 'none')
+           e.style.display = 'inline';
+       else
+           e.style.display = 'none';
+   }
+</script>
+
+
