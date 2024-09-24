@@ -2,11 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+# description: Materials for courses you taught. Replace this text with your description.
 nav: true
-nav_order: 6
+nav_order: 3
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+- TSIA-203: Introduction to deep learning program (TP), Telecom Paris, spring 2024.
+- MI205: Statistical learning applied to sound (TP), Telecom Paris, spring 2024.
+- ECS7006P: Music Informatics (TA), Queen Mary Univeristy of London, spring 2020.
+- ECS602U: Digital Signal Processing (TA), Queen Mary Univeristy of London, autumn 2019.
