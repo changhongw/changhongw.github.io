@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Co-organiser of [Listen Lab Seminar](https://listen.telecom-paris.fr/en/)

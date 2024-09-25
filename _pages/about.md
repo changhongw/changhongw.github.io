@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Postdoc Researcher at <a href='https://adasp.telecom-paris.fr/'>Telecom Paris</a>
 
@@ -25,3 +25,6 @@ I obtained my PhD degree in 2021 from the [Centre for Digital Music](http://www.
 <p align="left"><i class="fa-brands fa-github"></i>  &nbsp; <a href="https://github.com/changhongw">Github</a></p>
 
 <p align="left"><i class="fa fa-music fa-1x"></i>  &nbsp; <a href="https://zenodo.org/record/5744336">CBFdataset</a></p>
+
+
+<!-- ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") -->
