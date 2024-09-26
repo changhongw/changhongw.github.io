@@ -16,7 +16,7 @@ nav_order: 4
 
 - 2022 &nbsp; Mentor in the [WiMIR mentoring program](https://wimir.wordpress.com/mentoring-program/)
 
-- 2020 &nbsp; Co-organiser of [C4DM seminars](http://www.eecs.qmul.ac.uk/research/research-groups/- centre-for-digital-music-c4dm-research-group/)
+- 2020 &nbsp; Co-organiser of [C4DM seminars](https://www.c4dm.eecs.qmul.ac.uk/)
 
 ---
 
