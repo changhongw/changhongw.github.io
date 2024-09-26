@@ -8,9 +8,9 @@ nav_order: 3
 ---
 
 ---
-- Spring 2024 &nbsp; TSIA-203: Introduction to deep learning program (TP), Telecom Paris
+- Spring 2024 &nbsp; TSIA-203: Introduction to deep learning program (TA), Telecom Paris
 
-- Spring 2024. &nbsp; MI205: Statistical learning applied to sound (TP), Telecom Paris
+- Spring 2024 &nbsp; MI205: Statistical learning applied to sound (TA), Telecom Paris
 
 - Spring 2020 &nbsp; ECS7006P: Music Informatics (TA), Queen Mary Univeristy of London
 
