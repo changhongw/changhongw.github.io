@@ -193,7 +193,7 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 25%;
 
   .more-info {
     margin-bottom: 5px;
@@ -215,9 +215,9 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 576px) {
   .profile {
-    width: 25%;
+    width: 30%;
 
     .address {
       p {
@@ -430,7 +430,7 @@ ul.task-list input[type="checkbox"] {
 
 @media only screen and (max-width: 400px) {
   .wechat-modal > img {
-    width: 25%;
+    width: 100%;
   }
 }
 
