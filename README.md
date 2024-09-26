@@ -1,1 +1,1 @@
-Personal website based on [al-folio](https://alshedivat.github.io/al-folio/) template.
+Personal website based on the [al-folio](https://alshedivat.github.io/al-folio/) template.
