@@ -20,11 +20,11 @@ nav_order: 4
 
 ---
 
-#### Reviewing services
+#### Reviewing service
 
 - [IEEE International Conference on Acoustics, Speech, and Signal Processing](https://ieeexplore.ieee.org/xpl/conhome/1000002/all-proceedings) (ICASSP) conferece
 
-- [International Society for Music Information Retrieval](https://ismir.net/)(ISMIR) conferece
+- [International Society for Music Information Retrieval](https://ismir.net/) (ISMIR) conferece
 
 - [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieeeacm-transactions-audio-speech-and-language-processing) (TASLP) journal
 
