@@ -27,4 +27,3 @@ nav_order: 4
 - [International Society for Music Information Retrieval](https://ismir.net/) (ISMIR) conferece
 
 - [IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieeeacm-transactions-audio-speech-and-language-processing) (TASLP) journal
-
