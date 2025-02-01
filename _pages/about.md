@@ -26,7 +26,7 @@ I obtained my PhD degree in 2021 from the [Centre for Digital Music](https://www
 
 <p align="left"><i class="fa fa-music fa-1x"></i>  &nbsp; <a href="https://zenodo.org/record/5744336">CBFdataset</a></p>
 
-<p align="left"><i class="fa-brands fa-bluesky"></i>  &nbsp; <a href="https://bsky.app/profile/changhongwang.bsky.social">Bluesky</a></p>
+<p align="left"><i class="fa-brands fa-square-bluesky"></i>  &nbsp; <a href="https://bsky.app/profile/changhongwang.bsky.social">Bluesky</a></p>
 
 
 <!-- ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1") -->
