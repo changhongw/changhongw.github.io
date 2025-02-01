@@ -14,4 +14,4 @@ nav_order: 3
 
 - Spring 2020 &nbsp; [ECS7006P: Music Informatics](https://www.qmul.ac.uk/modules/items/ecs7006p-music-informatics.html) (TA), Queen Mary Univeristy of London
 
-- Autumn 2019 &nbsp; [ECS602U: Digital Signal Processing](https://www.qmul.ac.uk/eecs/courses/ug-modules/ecs602u-digital-signal-processing.html) (TA), Queen Mary Univeristy of London
+- Autumn 2019 &nbsp; [ECS602U: Digital Signal Processing]https://www.qmul.ac.uk/eecs/undergraduate/programmes/module-information/items/ecs602u-digital-signal-processing.html) (TA), Queen Mary Univeristy of London
