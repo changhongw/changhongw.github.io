@@ -24,6 +24,8 @@ I obtained my PhD degree in 2021 from the [Centre for Digital Music](https://www
 
 <p align="left"><i class="fa-brands fa-github"></i>  &nbsp; <a href="https://github.com/changhongw">Github</a></p>
 
+<p align="left"><i class="fa-brands fa-square-bluesky"></i>  &nbsp; <a href="https://bsky.app/profile/changhongwang.bsky.social">changhongwang.bsky.social</a></p>
+
 <p align="left"><i class="fa fa-music fa-1x"></i>  &nbsp; <a href="https://zenodo.org/record/5744336">CBFdataset</a></p>
 
 
