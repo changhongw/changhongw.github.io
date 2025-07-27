@@ -9,8 +9,8 @@ nav_order: 4
 
 ## MLM
 ---
-📔 Paper: [arXiV](https://arxiv.org/)
-[HAL](https://hal.science/hal-)
+📔 [arXiV](https://arxiv.org/)
+📔 [HAL](https://hal.science/)
 💻 Code: To appear
 ---
 
