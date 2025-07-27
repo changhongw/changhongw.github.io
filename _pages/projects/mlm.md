@@ -8,8 +8,7 @@ nav_order: 4
 ---
 
 ---
-📔 Paper: [arXiV](https://arxiv.org/)
-[HAL](https://hal.science/hal-)
+📔 Paper: To appear
 💻 Code: To appear<br>
 
 
