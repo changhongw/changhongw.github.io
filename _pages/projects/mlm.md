@@ -11,7 +11,7 @@ nav_order: 4
 ---
 📔 [arXiV](https://arxiv.org/)
 📔 [HAL](https://hal.science/)
-💻 Code: To appear
+💻 [Github](https://github.com/)
 ---
 
 This is the companion page for the paper: "Title", currently under review. 
