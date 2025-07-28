@@ -20,13 +20,8 @@ We provide more examples to supplement the example in the paper.
 
 
 <div class="row">
-    <div class="col mt-3 mt-md-0">
-        Melody
-        {% include audio.liquid path="assets/projects/mlm/id.wav" controls=true %}
-    </div>
-    <div class="col mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/projects/mlm/id.jpg" title="" class="img-fluid rounded z-depth-1" %}
-    </div>
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/alignment_example.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/0c309f7a0d31428da09e71d645426963_4_MIDI.wav" controls=true %}
 </div>
 
 
