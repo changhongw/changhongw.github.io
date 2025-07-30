@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-## MLM
+## Melody-Lyrics Matching with Contrastive Alignment Loss
 ---
 📔 arXiV (to appear)
 📔 [HAL](https://hal.science/hal-05191876)
