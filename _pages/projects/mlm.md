@@ -12,7 +12,7 @@ nav_order: 4
 📔 arXiV (to appear)
 📔 [HAL](https://hal.science/hal-05191876)
 💻 [Github](https://github.com/changhongw/mlm)
----
+
 
 This is the companion page for the paper: "Melody-Lyrics Matching with Contrastive Alignment Loss", currently under review. 
 
@@ -88,7 +88,7 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
     {% include figure.liquid loading="eager" path="assets/publications/mlm/79590eac5fd247c790b24e2b51dd8021_0_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
     {% include audio.liquid path="assets/publications/mlm/79590eac5fd247c790b24e2b51dd8021_0_MIDI.wav" controls=true %}
 </div>
-Please note: The constant melody pitch observed in this example reflects the original data as provided in the DALI dataset. As discussed in Section III-A of our paper, the annotations of the DALI dataset were created using automatic methods, which are known to have limited accuracy. For the evaluation set, we manually corrected only the alignment between the melody and lyrics; the melody pitch information remained unchanged.
+Please note: The constant melody pitch observed in the example above reflects the original data as provided in the DALI dataset. As discussed in Section III-A of our paper, the annotations of the DALI dataset were created using automatic methods, which are known to have limited accuracy. For the evaluation set, we manually corrected only the alignment between the melody and lyrics; the melody pitch information remained unchanged.
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/80182db88e68418ba97c874348d5de03_13_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
