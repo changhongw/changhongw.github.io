@@ -9,14 +9,14 @@ nav_order: 4
 
 ## MLM
 ---
-📔 [arXiV](https://arxiv.org/) (to appear)
+📔 arXiV (to appear)
 📔 [HAL](https://hal.science/hal-05191876)
 💻 [Github](https://github.com/changhongw/mlm)
 ---
 
-This is the companion page for the paper: "Title", currently under review. 
+This is the companion page for the paper: "Melody-Lyrics Matching with Contrastive Alignment Loss", currently under review. 
 
-We provide more examples to supplement the example in the paper.
+We provide more examples to supplement the example (Fig. 7) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference and top 2 lyrics retrieved by our proposed method, all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable/sylphone level. Note that the MIDI data in the studied dataset includes only onset time, offset time, and pitch information. As a result, the synthesized audio may sound unnatural due to the absence of velocity (dynamics) information. We render the MIDI sequences into audio using [FluidSynth](https://www.fluidsynth.org/).
 
 
 <div class="row">
