@@ -9,9 +9,9 @@ nav_order: 4
 
 ## MLM
 ---
-📔 [arXiV](https://arxiv.org/)
-📔 [HAL](https://hal.science/)
-💻 [Github](https://github.com/)
+📔 [arXiV](https://arxiv.org/) (to appear)
+📔 [HAL](https://hal.science/hal-05191876)
+💻 [Github](https://github.com/changhongw/mlm)
 ---
 
 This is the companion page for the paper: "Title", currently under review. 
@@ -20,36 +20,114 @@ We provide more examples to supplement the example in the paper.
 
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/alignment_example.png" title="" class="img-fluid rounded z-depth-1" %}
-    {% include audio.liquid path="assets/publications/mlm/0c309f7a0d31428da09e71d645426963_4_MIDI.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI.wav" controls=true %}
 </div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_1_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_1_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/5dd83cb8206f4a9880a538ef74e27b19_2_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/5dd83cb8206f4a9880a538ef74e27b19_2_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/8c65c45c777f4a6fa36975950bc28f14_0_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/8c65c45c777f4a6fa36975950bc28f14_0_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_7_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_7_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_14_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_14_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_16_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_16_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_5_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_5_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/3378d2783f464fa49e5aca2b34f6f789_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/3378d2783f464fa49e5aca2b34f6f789_12_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/70665aed613d488880a1518a2cb40be1_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/70665aed613d488880a1518a2cb40be1_9_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/73304c9e6fdc41d281228978b3e39d32_1_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/73304c9e6fdc41d281228978b3e39d32_1_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/79590eac5fd247c790b24e2b51dd8021_0_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/79590eac5fd247c790b24e2b51dd8021_0_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/80182db88e68418ba97c874348d5de03_13_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/80182db88e68418ba97c874348d5de03_13_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/3610288807cf42d49001384a2e946493_16_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_16_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/3610288807cf42d49001384a2e946493_19_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_19_MIDI.wav" controls=true %}
+</div>
 
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_MIDI.wav" controls=true %}
+</div>
+
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/b1dbe40183b743818a3c5fd6e7cee8ea_2_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/b1dbe40183b743818a3c5fd6e7cee8ea_2_MIDI.wav" controls=true %}
+</div>
+
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/d27be27332cf491983d57ff63f63e440_5_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include audio.liquid path="assets/publications/mlm/d27be27332cf491983d57ff63f63e440_5_MIDI.wav" controls=true %}
+</div>
 
 ## Citation
 
 If you use our work in your research, please cite our paper:
 
 ```
-@article{wang2025mlm,
-  title={mlm},
-  author={Wang, Changhong and ..., ... and Richard, Gaël},
+@article{wang2025music,
+  title={Melody-Lyrics Matching with Contrastive Alignment Loss},
+  author={Wang, Changhong and Olvera, Michel and Richard, Gaël},
   year={2025},
-  journal={arXiv preprint arXiv:}
+  journal={preprint HAL:https://hal.science/hal-05191876}
 }
 ```
