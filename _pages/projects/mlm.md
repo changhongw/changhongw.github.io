@@ -12,7 +12,7 @@ nav_order: 4
 <p align="center">
 📔 <a href="https://arxiv.org/">ArXiv</a> &nbsp;&nbsp;
 📔 <a href="https://hal.science/hal-05191876">HAL</a> &nbsp;&nbsp;
-🎵 <a href="https://changhongw.github.io/publications/mlm">Demo</a>
+💻 <a href="https://github.com/changhongw/mlm">Code</a>
 </p>
 
 This is the companion page for the paper: "Melody-Lyrics Matching with Contrastive Alignment Loss", currently under review. 
