@@ -9,9 +9,11 @@ nav_order: 4
 
 ## Melody-Lyrics Matching with Contrastive Alignment Loss
 ---
-:page_facing_up: Paper: arXiv (to appear) | [HAL](https://hal.science/hal-05191876)<br>
-:computer: Code: [Github](https://github.com/changhongw/mlm)<br>
-
+<p align="center">
+📔 <a href="https://arxiv.org/">ArXiv</a> &nbsp;&nbsp;
+📔 <a href="https://hal.science/hal-05191876">HAL</a> &nbsp;&nbsp;
+🎵 <a href="https://changhongw.github.io/publications/mlm">Demo</a>
+</p>
 
 This is the companion page for the paper: "Melody-Lyrics Matching with Contrastive Alignment Loss", currently under review. 
 
