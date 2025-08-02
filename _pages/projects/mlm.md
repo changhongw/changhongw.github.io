@@ -185,9 +185,9 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 If you use our work in your research, please cite our paper:
 
 ```
-@article{wang2025music,
+@article{wang2025melody,
   title={Melody-Lyrics Matching with Contrastive Alignment Loss},
-  author={Wang, Changhong and Olvera, Michel and Richard, Gaël},
+  author={Wang, Changhong and Olvera, Michel and Richard, Ga{\"e}l},
   year={2025},
   journal={preprint HAL:https://hal.science/hal-05191876}
 }
