@@ -10,7 +10,7 @@ nav_order: 4
 ## Melody-Lyrics Matching with Contrastive Alignment Loss
 ---
 <p align="center">
-📔 <a href="https://arxiv.org/">ArXiv</a> &nbsp;&nbsp;
+📔 ArXiv (to appear) &nbsp;&nbsp;
 📔 <a href="https://hal.science/hal-05191876">HAL</a> &nbsp;&nbsp;
 💻 <a href="https://github.com/changhongw/mlm">Code</a>
 </p>
@@ -22,8 +22,10 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_piano.wav" controls=true %}<br>
-    Violin {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_violin.wav" controls=true %}
+    Piano
+    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_piano.wav" controls=true %}
+    Violin
+    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_violin.wav" controls=true %}
 </div>
 
 <div class="row">
@@ -156,8 +158,10 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano {% include audio.liquid path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_MIDI_piano.wav" controls=true %}<br>
-    Violin {% include audio.liquid path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_MIDI_violin.wav" controls=true %}
+    Piano
+    {% include audio.liquid path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_MIDI_piano.wav" controls=true %}
+    Violin
+    {% include audio.liquid path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_MIDI_violin.wav" controls=true %}
 </div>
 
 <div class="row">
