@@ -22,16 +22,10 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-
-    <p>
     Piano
     {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_piano.wav" controls=true %}
-    </p>
-    
-    <p>
     Violin
     {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_violin.wav" controls=true %}
-    </p>
 </div>
 
 <div class="row">
