@@ -10,7 +10,7 @@ nav_order: 4
 ## Melody-Lyrics Matching with Contrastive Alignment Loss
 ---
 <p align="center">
-📔 ArXiv (to appear) &nbsp;&nbsp;
+📔 <a href="https://arxiv.org/">ArXiv</a> (to appear) &nbsp;&nbsp;
 📔 <a href="https://hal.science/hal-05191876">HAL</a> &nbsp;&nbsp;
 💻 <a href="https://github.com/changhongw/mlm">Code</a>
 </p>
