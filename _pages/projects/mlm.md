@@ -10,7 +10,7 @@ nav_order: 4
 ## Melody-Lyrics Matching with Contrastive Alignment Loss
 ---
 <p align="center">
-📔 <a href="https://arxiv.org/">ArXiv</a> (to appear) &nbsp;&nbsp;
+📔 <a href="https://www.arxiv.org/abs/2508.00123">ArXiv</a> &nbsp;&nbsp;
 📔 <a href="https://hal.science/hal-05191876">HAL</a> &nbsp;&nbsp;
 💻 <a href="https://github.com/changhongw/mlm">Code</a>
 </p>
@@ -188,7 +188,7 @@ If you use our work in your research, please cite our paper:
 @article{wang2025melody,
   title={Melody-Lyrics Matching with Contrastive Alignment Loss},
   author={Wang, Changhong and Olvera, Michel and Richard, Ga{\"e}l},
-  year={2025},
-  journal={preprint HAL:https://hal.science/hal-05191876}
+  journal={arXiv preprint arXiv:2508.00123},
+  year={2025}
 }
 ```
