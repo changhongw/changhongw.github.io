@@ -8,6 +8,8 @@ nav_order: 3
 ---
 
 ---
+- Autumn 2025 &nbsp; [IA717 - Natural Language Processing](https://ecampus.paris-saclay.fr/course/info.php?id=43307) (Project supervision), Telecom Paris
+
 - Autumn 2024 &nbsp; [IA717 - Natural Language Processing](https://ecampus.paris-saclay.fr/course/info.php?id=43307) (Project supervision), Telecom Paris
 
 - Spring 2024 &nbsp; [TSIA-203: Introduction to deep learning program](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/2173/SD-TSIA203-introduction-to-deep-learning?from=D4) (Practical session), Telecom Paris
