@@ -20,165 +20,100 @@ This is the companion page for the paper: "Melody-Lyrics Matching with Contrasti
 
 We provide more examples to supplement the example (Fig. 7) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference and top 2 lyrics retrieved by our proposed method, all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable/sylphone level. Note that the MIDI data in the studied dataset includes only onset time, offset time, and pitch information, with no velocity (dynamics) information. To facilitate better understanding of the melody, we render the MIDI sequences into audio with both `piano` and `violin` timbres using [FluidSynth](https://www.fluidsynth.org/).
 
-
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_12_MIDI_violin.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_1_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_1_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_1_MIDI_violin.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_MIDI_violin.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/5dd83cb8206f4a9880a538ef74e27b19_2_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/5dd83cb8206f4a9880a538ef74e27b19_2_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/5dd83cb8206f4a9880a538ef74e27b19_2_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/8c65c45c777f4a6fa36975950bc28f14_0_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/8c65c45c777f4a6fa36975950bc28f14_0_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/8c65c45c777f4a6fa36975950bc28f14_0_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_7_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_7_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_7_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_14_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_14_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_14_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_16_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_16_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_16_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_5_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_5_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_5_MIDI_violin.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_MIDI_violin.wav" controls=true %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/3378d2783f464fa49e5aca2b34f6f789_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/3378d2783f464fa49e5aca2b34f6f789_12_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/3378d2783f464fa49e5aca2b34f6f789_12_MIDI_violin.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/70665aed613d488880a1518a2cb40be1_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/70665aed613d488880a1518a2cb40be1_9_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/70665aed613d488880a1518a2cb40be1_9_MIDI_violin.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/73304c9e6fdc41d281228978b3e39d32_1_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/73304c9e6fdc41d281228978b3e39d32_1_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/73304c9e6fdc41d281228978b3e39d32_1_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/79590eac5fd247c790b24e2b51dd8021_0_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/79590eac5fd247c790b24e2b51dd8021_0_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/79590eac5fd247c790b24e2b51dd8021_0_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/80182db88e68418ba97c874348d5de03_13_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/80182db88e68418ba97c874348d5de03_13_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/80182db88e68418ba97c874348d5de03_13_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/3610288807cf42d49001384a2e946493_16_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_16_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_16_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/3610288807cf42d49001384a2e946493_19_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_19_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_19_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/aa36cfc5c6704e0bb0278123363c743a_1_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/b1dbe40183b743818a3c5fd6e7cee8ea_2_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/b1dbe40183b743818a3c5fd6e7cee8ea_2_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/b1dbe40183b743818a3c5fd6e7cee8ea_2_MIDI_violin.wav" controls=true %}
-</div>
-
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/d27be27332cf491983d57ff63f63e440_5_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    Piano
-    {% include audio.liquid path="assets/publications/mlm/d27be27332cf491983d57ff63f63e440_5_MIDI_piano.wav" controls=true %}
-    Violin
-    {% include audio.liquid path="assets/publications/mlm/d27be27332cf491983d57ff63f63e440_5_MIDI_violin.wav" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Ran.wav" controls=true %}
 </div>
 
 ## Citation
