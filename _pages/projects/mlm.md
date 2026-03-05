@@ -18,16 +18,16 @@ nav_order: 4
 
 This is the companion page for the paper: "Melody-Lyrics Matching with Contrastive Alignment Loss", currently under review. 
 
-We provide more examples to supplement the example (Fig. 7) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference and top 2 lyrics retrieved by our proposed method, all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable/sylphone level. Note that the MIDI data in the studied dataset includes only onset time, offset time, and pitch information, with no velocity (dynamics) information. To facilitate better understanding of the melody, we render the MIDI sequences into audio with both `piano` and `violin` timbres using [FluidSynth](https://www.fluidsynth.org/).
+We provide more examples to supplement the example (Fig. 7) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference (**Ref**) and top-1 lyrics retrieved by our proposed MLM-CAL (**MC**), the length-informed (**LI**) method, and random baseline (**Ra**) all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable level.
 
 <div class="row">
-    {% include figure.liquid loading="eager" path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_alignment.png" title="" class="img-fluid rounded z-depth-1" %}<br>
     Ref
-    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ref.wav" controls=true %}
+    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ref.wav" controls=true %}<br>
     Cal
-    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Cal.wav" controls=true %}
+    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Cal.wav" controls=true %}<br>
     Len
-    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Len.wav" controls=true %}
+    {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Len.wav" controls=true %}<br>
     Ran
     {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ran.wav" controls=true %}
 </div>
