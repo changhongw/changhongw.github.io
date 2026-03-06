@@ -23,11 +23,19 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 
 {% include figure.liquid loading="eager" path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
 
-**Ref**
-{% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ref.wav" controls=true %}
+<div class="row">
 
-**MC**
+<div class="col-md-6">
+<strong>Ref</strong>
+{% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ref.wav" controls=true %}
+</div>
+
+<div class="col-md-6">
+<strong>MC</strong>
 {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Cal.wav" controls=true %}
+</div>
+
+</div>
 
 **LI**
 {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Len.wav" controls=true %}
