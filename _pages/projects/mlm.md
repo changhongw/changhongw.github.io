@@ -33,6 +33,18 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 </div>
 
 <div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}<br>
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Ref.wav" controls=true %}<br>
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Cal.wav" controls=true %}<br>
+    Len
+    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Len.wav" controls=true %}<br>
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Ran.wav" controls=true %}
+</div>
+
+<div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
     Ref
     {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Ref.wav" controls=true %}
@@ -114,6 +126,18 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Len.wav" controls=true %}
     Ran
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Ran.wav" controls=true %}
+</div>
+
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+    Ref
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Ref.wav" controls=true %}
+    Cal
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Cal.wav" controls=true %}
+    Len
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Len.wav" controls=true %}
+    Ran
+    {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Ran.wav" controls=true %}
 </div>
 
 ## Citation
