@@ -18,125 +18,213 @@ nav_order: 4
 
 This is the companion page for the paper: "Melody-Lyrics Matching with Contrastive Alignment Loss", currently under review. 
 
-We provide more examples to supplement the example (Fig. 7) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference (**Ref**) and top-1 lyrics retrieved by our proposed MLM-CAL (**MC**), the length-informed (**LI**) method, and random baseline (**Ra**) all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable level.
+We provide more examples to supplement the example (Fig. 7) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference (
+    
+    **Ref**) and top-1 lyrics retrieved by our proposed MLM-CAL (
+        
+        **MC**), the length-informed (
+            
+            **LI**) method, and random baseline (
+                
+                **Ra**) all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable level.
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_alignment.png" title="" class="img-fluid rounded z-depth-1" %}<br>
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ref.wav" controls=true %}<br>
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Cal.wav" controls=true %}<br>
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Len.wav" controls=true %}<br>
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}<br>
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Ref.wav" controls=true %}<br>
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Cal.wav" controls=true %}<br>
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Len.wav" controls=true %}<br>
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/1d8dd030fb93447186da1fb45c79d3a7_7_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/16e36412405f45d298950ea5ecebb9e2_3_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/3610288807cf42d49001384a2e946493_3_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/ad2fa181887b4995a7551f371eae4c4a_9_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_12_lyrics_Ran.wav" controls=true %}
 </div>
 
 <div class="row">
     {% include figure.liquid loading="eager" path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-    <p>Ref</p>
+    
+    
+    **Ref**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Ref.wav" controls=true %}
-    <p>MC</p>
+    
+    
+    **MC**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Cal.wav" controls=true %}
-    <p>LI</p>
+    
+    
+    **LI**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Len.wav" controls=true %}
-    <p>Ra</p>
+    
+    
+    **Ra**
     {% include audio.liquid path="assets/publications/mlm/21d3c1a89824481b817e81d210161997_19_lyrics_Ran.wav" controls=true %}
 </div>
 
