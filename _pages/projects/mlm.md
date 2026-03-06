@@ -55,6 +55,8 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 <div class="col-md-6">
 <strong>MC</strong>
 {% include audio.liquid path="assets/publications/mlm/3afc116a01f940cbb617f4f750703dbe_9_lyrics_Cal.wav" controls=true %}
+</div>
+</div>
 
 <div class="row">
 <div class="col-md-6">
