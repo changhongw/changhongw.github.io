@@ -11,11 +11,14 @@ nav_order: 5
 #### PhD Student
 
 - [Manvi Agarwal](https://www.manviagarwal.com/), 2/2023-3/2026, Co-supervised with Gaël Richard
+
   Thesis: Designing Positional Encoding with Musical Priors for Generative Applications
 
 
 ---
+
 #### Research Intern
 
 - [Victor Deng](https://victor-deng.fr/), 4/2024-9/2024, Co-supervised with Gaël Richard and Brian McFee
+
   Topic: Bias Correction with Pre-trained Audio Embeddings
