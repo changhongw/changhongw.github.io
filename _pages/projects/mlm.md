@@ -18,7 +18,7 @@ nav_order: 4
 
 This is the companion page for the following paper: 
 
-C. Wang, M. Olvera, G. Richard, "Melody-Lyrics Matching with Contrastive Alignment Loss", IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP), 2026. (Accepted)
+C. Wang, M. Olvera, G. Richard, "Melody-Lyrics Matching with Contrastive Alignment Loss", _IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP)_, 2026. (Accepted)
 
 Listenable synthesized singing renditions of the example lyrics in Fig. 1:
 
