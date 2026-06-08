@@ -16,32 +16,59 @@ nav_order: 4
 🎧 <a href="https://perso.telecom-paristech.fr/chawang/webMUSHRA/">Listening Test</a>
 </p>
 
-This is the companion page for the paper: "Melody-Lyrics Matching with Contrastive Alignment Loss", currently under review. 
+This is the companion page for the following paper: 
 
-We provide more examples to supplement the example (Fig. 7) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference (**Ref**) and top-1 non-perturbed lyrics retrieved by our proposed MLM-CAL (**MC**), the length-informed (**LI**) method, and random baseline (**Ra**) all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable level.
+C. Wang, M. Olvera, G. Richard, "Melody-Lyrics Matching with Contrastive Alignment Loss", IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP), 2026. (Accepted)
 
+Listenable synthesized singing renditions of the example lyrics in Fig. 1:
 
 {% include figure.liquid loading="eager" path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
 
 <div class="row">
 <div class="col-md-6">
-<strong>Ref</strong>
+<strong>Rank 1</strong>
 {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ref.wav" controls=true %}
 </div>
 <div class="col-md-6">
-<strong>MC</strong>
+<strong>Rank 2</strong>
 {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Cal.wav" controls=true %}
 </div>
 </div>
 
 <div class="row">
 <div class="col-md-6">
-<strong>LI</strong>
+<strong>Rank 3</strong>
 {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Len.wav" controls=true %}
 </div>
 <div class="col-md-6">
-<strong>Ra</strong>
+<strong>Rank 4</strong>
 {% include audio.liquid path="assets/publications/mlm/6124c87f1af643689a3cbc36a79a4580_8_lyrics_Ran.wav" controls=true %}
+</div>
+</div>
+
+We provide more examples to supplement the example (Fig. 8) in the paper. Each example includes (1) Playable MIDI notes; (2) Reference (**Ref**) and top-1 non-perturbed lyrics retrieved by our proposed MLM-CAL (**MC**), the length-informed (**LI**) method, and random baseline (**Ra**) all aligned with the melody in terms of words; (3) the same set of lyrics, but aligned with the melody at the syllable level.
+
+{% include figure.liquid loading="eager" path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
+
+<div class="row">
+<div class="col-md-6">
+<strong>Ref</strong>
+{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ref.wav" controls=true %}
+</div>
+<div class="col-md-6">
+<strong>MC</strong>
+{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Cal.wav" controls=true %}
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-6">
+<strong>LI</strong>
+{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Len.wav" controls=true %}
+</div>
+<div class="col-md-6">
+<strong>Ra</strong>
+{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ran.wav" controls=true %}
 </div>
 </div>
 
@@ -138,30 +165,6 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 <div class="col-md-6">
 <strong>Ra</strong>
 {% include audio.liquid path="assets/publications/mlm/49ab3d6443d945dbac2ada29372973e0_10_lyrics_Ran.wav" controls=true %}
-</div>
-</div>
-
-{% include figure.liquid loading="eager" path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_alignment.png" title="" class="img-fluid rounded z-depth-1" %}
-
-<div class="row">
-<div class="col-md-6">
-<strong>Ref</strong>
-{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ref.wav" controls=true %}
-</div>
-<div class="col-md-6">
-<strong>MC</strong>
-{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Cal.wav" controls=true %}
-</div>
-</div>
-
-<div class="row">
-<div class="col-md-6">
-<strong>LI</strong>
-{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Len.wav" controls=true %}
-</div>
-<div class="col-md-6">
-<strong>Ra</strong>
-{% include audio.liquid path="assets/publications/mlm/109d0e9f08e54395b679a4600c11d388_10_lyrics_Ran.wav" controls=true %}
 </div>
 </div>
 
@@ -266,10 +269,10 @@ We provide more examples to supplement the example (Fig. 7) in the paper. Each e
 If you use our work in your research, please cite our paper:
 
 ```
-@article{wang2025melody,
+@article{wang2026melody,
   title={Melody-Lyrics Matching with Contrastive Alignment Loss},
   author={Wang, Changhong and Olvera, Michel and Richard, Ga{\"e}l},
-  journal={arXiv preprint arXiv:2508.00123},
-  year={2025}
+  journal={IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP)},
+  year={2026}
 }
 ```
