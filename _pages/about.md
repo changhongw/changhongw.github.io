@@ -14,7 +14,7 @@ profile:
 # social: true # includes social icons at the bottom of the page
 ---
 
-I am a Senior AI Fellow of the PSL University and am affiliated with the Laboratoire des Systèmes Perceptifs (LSP), École Normale Supérieure. My research focuses on Deep Learning for Audio.
+I am a Senior AI Fellow of the [PSL University](https://psl.eu/) and am affiliated with the [Laboratoire des Systèmes Perceptifs](https://lsp.dec.ens.fr/en) (LSP), École Normale Supérieure. My research focuses on Deep Learning for Audio.
 
 I obtained my PhD degree in 2021 from the [Centre for Digital Music](https://www.c4dm.eecs.qmul.ac.uk/) (C4DM), Queen Mary University of London, supervised by Dr. [Emmanouil Benetos](http://www.eecs.qmul.ac.uk/~emmanouilb/index.html) and Prof. [Elaine Chew](http://mupae.blogspot.com/p/people.html). In 2022, I worked as a postdoc researcher at the [Nantes Laboratory of Digital Sciences](https://www.ls2n.fr/?lang=en) (LS2N), with CNRS researchers [Vincent Lostanlen](https://www.lostanlen.com/) and [Mathieu Lagrange](https://mathieulagrange.github.io/). From 2023 to 2026, I continued as a postdoc researcher at [Telecom Paris](https://adasp.telecom-paris.fr/), working with Prof. [Gaël Richard](https://www.telecom-paris.fr/gael-richard) in the [Hi-Audio](https://hi-audio.imt.fr/) project. 
 
