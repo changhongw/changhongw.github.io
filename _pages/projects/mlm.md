@@ -13,12 +13,12 @@ nav_order: 4
 📔 <a href="https://www.arxiv.org/abs/2508.00123">ArXiv</a> &nbsp;&nbsp;
 📔 <a href="https://hal.science/hal-05191876">HAL</a> &nbsp;&nbsp;
 💻 <a href="https://github.com/changhongw/mlm">Code</a> &nbsp;&nbsp;
-🎧 <a href="https://perso.telecom-paristech.fr/chawang/webMUSHRA/">Listening Test</a>
+💾 <a href="https://github.com/changhongw/DALI50/">Dataset</a>
 </p>
 
-This is the companion page for the following paper: 
+This is a companion page for the following paper: 
 
-C. Wang, M. Olvera, G. Richard, "Melody-Lyrics Matching with Contrastive Alignment Loss", _IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP)_, 2026. (Accepted)
+C. Wang, M. Olvera, and G. Richard, "Melody-Lyrics Matching with Contrastive Alignment Loss", _IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP)_, vol 34, pp 3560-3571, 2026.
 
 Listenable synthesized singing renditions of the example lyrics in Fig. 1:
 
@@ -269,10 +269,12 @@ We provide more examples to supplement the example (Fig. 8) in the paper. Each e
 If you use our work in your research, please cite our paper:
 
 ```
-@article{wang2026melody,
+@article{wang2025melody,
   title={Melody-Lyrics Matching with Contrastive Alignment Loss},
   author={Wang, Changhong and Olvera, Michel and Richard, Ga{\"e}l},
-  journal={IEEE/ACM Transactions on Audio, Speech and Language Processing (TASLP)},
-  year={2026}
+  journal={IEEE Transactions on Audio, Speech and Language Processing},
+  volume={34},
+  pages={3560-3571},
+  year={2026},
 }
 ```

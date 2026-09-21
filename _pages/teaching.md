@@ -8,12 +8,20 @@ nav_order: 3
 ---
 
 ---
-- Autumn 2025 &nbsp; [IA717 - Natural Language Processing](https://ecampus.paris-saclay.fr/course/info.php?id=43307) (Project supervision), Télécom Paris. [Project Colab notebook](https://colab.research.google.com/drive/1BvT5H22xS1SpZfrS-AccfQFZyuR_5EWx?usp=sharing)
+- Spring 2027 &nbsp; **Reinforcement Learning** (Lectures, co-teaching with Octave MARIOTTI), Paris Sciences et Lettres University.
 
-- Autumn 2024 &nbsp; [IA717 - Natural Language Processing](https://ecampus.paris-saclay.fr/course/info.php?id=43307) (Project supervision), Télécom Paris. [Project Colab notebook](https://colab.research.google.com/drive/1BvT5H22xS1SpZfrS-AccfQFZyuR_5EWx?usp=sharing)
+- Autumn 2026 &nbsp; **Deep Learning** (Lectures, co-teaching with Octave MARIOTTI), Paris Sciences et Lettres University.
 
-- Spring 2024 &nbsp; [TSIA-203: Introduction to deep learning program](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/2173/SD-TSIA203-introduction-to-deep-learning?from=D4) (Practical session), Télécom Paris
+- Autumn 2026 &nbsp; **Linear Algebra** (Tutorial sessions), Paris Sciences et Lettres University.
 
-- Spring 2024 &nbsp; [MI205: Statistical learning applied to sound](https://perso.ensta-paris.fr/~manzaner/Cours/MI205/) (Practical session), ENSTA Paris
+- Autumn 2026 &nbsp; **Computer Programming** (Tutorial sessions), Paris Sciences et Lettres University.
 
-- Spring 2020 &nbsp; [ECS7006P: Music Informatics](https://www.qmul.ac.uk/modules/items/ecs7006p-music-informatics.html) (Teaching assistant), Queen Mary Univeristy of London
+- Autumn 2025 &nbsp; **Natural Language Processing** (Project supervision), Télécom Paris.
+
+- Autumn 2024 &nbsp; **Natural Language Processing** (Project supervision), Télécom Paris. 
+
+- Spring 2024 &nbsp; **Introduction to Deep Learning** (Practical sessions), Télécom Paris
+
+- Spring 2024 &nbsp; **Statistical Learning Applied to Sound** (Practical sessions), ENSTA Paris
+
+- Spring 2020 &nbsp; **Music Informatics** (Teaching assistant), Queen Mary University of London
